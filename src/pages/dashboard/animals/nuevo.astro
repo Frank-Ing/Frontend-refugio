@@ -1,0 +1,8 @@
+---
+import DashboardLayout from '../../../layouts/DashboardLayout.astro';
+import Sidebar from '../../../components/layout/Sidebar.astro';
+import Topbar from '../../../components/layout/Topbar.astro';
+import AnimalForm from '../../../components/animals/AnimalForm.astro';
+---
+<DashboardLayout title="Registrar animal · Refugio"><div class="flex min-h-screen"><Sidebar /><main class="min-w-0 flex-1"><Topbar title="Registrar animal" /><AnimalForm /></main></div></DashboardLayout>
+<script>import { animalSchema } from '../../../features/animals/schemas'; import { api } from '../../../lib/api'; import { getToken } from '../../../lib/session'; const form=document.querySelector<HTMLFormElement>('#animal-form'); if(!getToken())window.location.href='/login'; form?.addEventListener('submit',async(e)=>{e.preventDefault();const data=Object.fromEntries(new FormData(form));const parsed=animalSchema.safeParse(data);document.querySelectorAll('[data-error]').forEach(n=>n.textContent='');if(!parsed.success){parsed.error.issues.forEach(i=>{const n=document.querySelector(`[data-error="${String(i.path[0])}"]`);if(n)n.textContent=i.message});return}try{await api.createAnimal(parsed.data);window.location.href='/dashboard/animals'}catch(error){const n=document.querySelector('#form-error');if(n){n.textContent=error instanceof Error?error.message:'No se pudo registrar';n.className='rounded-2xl bg-red-50 px-4 py-3 text-sm text-red-700'}}});</script>

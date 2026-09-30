@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" role="img" aria-labelledby="title desc">
+  <title id="title">Perro y gato del refugio</title><desc id="desc">Ilustración cálida de un perro y un gato juntos</desc>
+  <path fill="#f8b83c" d="M80 399c18-74 79-108 173-91 95 17 184 21 286-26 58-27 92 9 67 63-38 82-144 105-284 101-96-3-177-12-242-47Z"/>
+  <path fill="#fff8e8" d="M274 380c-33-69-31-177 23-236 30-33 68-42 98-24 28 17 35 48 27 81 32 35 47 91 30 158-13 49-50 76-92 76-37 0-68-20-86-55Z"/>
+  <path fill="#9b673d" d="M303 162c-30-50-14-107 28-116 35-8 52 25 48 67 22-37 65-38 74-3 10 39-12 73-43 91-30-30-68-42-107-39Z"/>
+  <circle cx="332" cy="239" r="9" fill="#17333a"/><circle cx="399" cy="239" r="9" fill="#17333a"/>
+  <path fill="none" stroke="#17333a" stroke-linecap="round" stroke-width="7" d="M356 270c12 12 26 12 38 0M363 274l-4 20m4 0 10-2"/>
+  <path fill="#d99058" d="M126 369c-25-82-5-186 61-233 36-26 76-21 105 7 25 24 31 59 17 91 27 39 31 104 6 154-23 46-68 67-111 55-37-10-65-35-78-74Z"/>
+  <path fill="#c47b46" d="M171 144c-37-37-30-99 5-116 35-17 64 11 68 50 20-32 62-25 67 9 6 37-22 69-60 83-24-20-51-28-80-26Z"/>
+  <circle cx="184" cy="237" r="8" fill="#17333a"/><circle cx="254" cy="237" r="8" fill="#17333a"/>
+  <path fill="none" stroke="#17333a" stroke-linecap="round" stroke-width="6" d="M207 272c10 9 22 9 33 0"/>
+  <path fill="#ffc744" d="M95 408h408c10 0 18 8 18 18H77c0-10 8-18 18-18Z"/>
+</svg>

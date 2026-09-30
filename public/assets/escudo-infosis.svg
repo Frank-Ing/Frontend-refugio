@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 500" role="img" aria-labelledby="title desc">
+  <title id="title">Escudo de Informática y Sistemas</title>
+  <desc id="desc">Escudo azul de la carrera de Informática y Sistemas</desc>
+  <defs><linearGradient id="blue" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1769aa"/><stop offset="1" stop-color="#0b3d66"/></linearGradient></defs>
+  <path fill="url(#blue)" d="M210 12C126 12 54 32 28 54v185c0 112 75 198 182 248 107-50 182-136 182-248V54C366 32 294 12 210 12Z"/>
+  <path fill="#fff" d="M210 37c-70 0-130 16-157 35v164c0 94 61 169 157 218 96-49 157-124 157-218V72c-27-19-87-35-157-35Z"/>
+  <path fill="none" stroke="#1769aa" stroke-width="9" d="M210 52c-60 0-112 13-137 28v156c0 80 51 146 137 193 86-47 137-113 137-193V80c-25-15-77-28-137-28Z"/>
+  <text x="210" y="92" fill="#0b3d66" font-family="Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="3">INFORMÁTICA</text>
+  <text x="210" y="126" fill="#1769aa" font-family="Georgia,serif" font-size="38" font-weight="700" text-anchor="middle">187</text>
+  <circle cx="210" cy="215" r="67" fill="#1769aa"/>
+  <path fill="#fff" d="M145 215h130M210 148c-27 25-27 109 0 134M210 148c27 25 27 109 0 134M154 183c34 17 78 17 112 0M154 247c34-17 78-17 112 0" fill-opacity="0" stroke="#fff" stroke-width="3"/>
+  <path fill="#d71920" d="M210 282l-27 54 27-16 28 16Z"/>
+  <path fill="#1769aa" d="M210 287c-25 45-53 74-86 101 45-15 74-37 86-55 12 18 41 40 86 55-33-27-61-56-86-101Z"/>
+  <text x="210" y="438" fill="#0b3d66" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="2">SISTEMAS · FICH</text>
+</svg>

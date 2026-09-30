@@ -1,0 +1,9 @@
+---
+import '../styles/global.css';
+const { title = 'Panel · Refugio' } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /><title>{title}</title></head>
+  <body class="min-h-screen bg-cream"><slot /></body>
+</html>
